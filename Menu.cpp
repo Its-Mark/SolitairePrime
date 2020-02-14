@@ -43,7 +43,7 @@ int main() {
             }
             else if (userInput == 4) {
                 sum = 0;
-                cout << "Playing Solitaire Prime!!!\n\n";
+                cout << "Playing Solitaire Prime!!!\n";
                 for (int i = 0; i < 52; i++) {
                     Card t = masterDeck.deal();
                     sum += t.getValue();
